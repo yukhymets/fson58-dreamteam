@@ -32,27 +32,31 @@
   </head>
   <body>
     <!-- Хедер -->
-    <header>
-      <a href="./index.html"
-        ><img src="./images/logo/logo.svg" alt="logo" /><span>Finance</span>Ledger</a
-      >
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Cases</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a class="logo link" href="./index.html"
+            ><img class="logo-img" src="./images/logo/logo.svg" alt="logo" />
+            <span class="accent">Finance</span> Ledger</a
+          >
+
+          <ul class="header-nav-list list">
+            <li class="header-nav-item"><a class="header-nav-link link" href="">Home</a></li>
+            <li class="header-nav-item"><a class="header-nav-link link" href="">About</a></li>
+            <li class="header-nav-item"><a class="header-nav-link link" href="">Cases</a></li>
+            <li class="header-nav-item"><a class="header-nav-link link" href="">Blog</a></li>
+            <li class="header-nav-item"><a class="header-nav-link link" href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- головний контент -->
     <main>
-      <section>
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <button type="button">Read More</button>
+      <section class="hero">
+        <h1 class="hero-title">The Sky Is The Limit</h1>
+        <p class="hero-text">We provide world class financial assistance</p>
+        <button class="button" type="button">Read More</button>
       </section>
 
       <!--About-->
