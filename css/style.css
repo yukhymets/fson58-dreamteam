@@ -1,0 +1,74 @@
+:root {
+  --accent-color: #28a745;
+  --primary-white-color: #ffffff;
+  --primary-text-color: #333333;
+  --secondary-text-color: #ffffff;
+  --input-text-color: #808080;
+
+  --main-font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-family: var(--main-font-family);
+  background-color: var(--primary-white-color);
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+/* utils */
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+/* Класс для обнуления базовых свойств у списков (ul) */
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+/* Класс для обнуления базовых свойств у ссылок */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+/* Свойства для корректного отображения картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* Свойства для обнуления курсива у address */
+
+address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* header */
