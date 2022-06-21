@@ -1,191 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- faicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
-    <link rel="manifest" href="./favicon/site.webmanifest" />
-    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>FinanceLedger</title>
+  <!-- faicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./favicon/site.webmanifest" />
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+  <title>FinanceLedger</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <!-- Хедер -->
-    <header class="header">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css" />
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- Хедер -->
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <a class="logo link" href="./index.html"><img class="logo-img" src="./images/logo/logo.svg" alt="logo" />
+          <span class="accent">Finance</span> Ledger</a>
+
+        <ul class="header-nav-list list">
+          <li class="header-nav-item"><a class="header-nav-link link" href="">Home</a></li>
+          <li class="header-nav-item"><a class="header-nav-link link" href="">About</a></li>
+          <li class="header-nav-item"><a class="header-nav-link link" href="">Cases</a></li>
+          <li class="header-nav-item"><a class="header-nav-link link" href="">Blog</a></li>
+          <li class="header-nav-item"><a class="header-nav-link link" href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- головний контент -->
+  <main>
+    <section class="hero">
       <div class="container">
-        <nav class="header-nav">
-          <a class="logo link" href="./index.html"
-            ><img class="logo-img" src="./images/logo/logo.svg" alt="logo" />
-            <span class="accent">Finance</span> Ledger</a
-          >
-
-          <ul class="header-nav-list list">
-            <li class="header-nav-item"><a class="header-nav-link link" href="">Home</a></li>
-            <li class="header-nav-item"><a class="header-nav-link link" href="">About</a></li>
-            <li class="header-nav-item"><a class="header-nav-link link" href="">Cases</a></li>
-            <li class="header-nav-item"><a class="header-nav-link link" href="">Blog</a></li>
-            <li class="header-nav-item"><a class="header-nav-link link" href="">Contact</a></li>
-          </ul>
-        </nav>
+        <h1 class="hero-title">The Sky Is The Limit</h1>
+        <p class="hero-text">We provide world class financial assistance</p>
+        <button class="button" type="button">Read More</button>
       </div>
-    </header>
+    </section>
 
-    <!-- головний контент -->
-    <main>
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero-title">The Sky Is The Limit</h1>
-          <p class="hero-text">We provide world class financial assistance</p>
+    <!--About-->
+    <section class="about">
+      <div class="container">
+        <h2 class="visually-hidden">About</h2>
+        <ul class="about-list list">
+          <li class="about-item">
+            <h3 class="about-subtitle">Investmant Banking</h3>
+            <p class="about-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
+              necessitatibus!
+            </p>
+          </li>
+
+          <li class="about-item">
+            <h3 class="about-subtitle">Portfolio Manager</h3>
+            <p class="about-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
+              necessitatibus!
+            </p>
+          </li>
+
+          <li class="about-item">
+            <h3 class="about-subtitle">Tax & Custudio</h3>
+            <p class="about-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
+              necessitatibus!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Solutions -->
+    <section class="solutions">
+      <div class="container">
+        <div class="solutions-img-wrapper">
+          <img class="solutions-img" src="./images/solutions/solutions.jpg" alt="Team" />
+        </div>
+
+        <div class="solutions-text-wrapper">
+          <p class="solutions-subtitle">What you are looking for</p>
+          <h2 class="solutions-title">We provide bespoke solutions</h2>
+          <p class="solutions-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
+            quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
+            itaque rerum temporibus doloribus iste maiores deleniti?
+          </p>
           <button class="button" type="button">Read More</button>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--About-->
-      <section class="about">
-        <div class="container">
-          <h2 class="visually-hidden">About</h2>
-          <ul class="about-list list">
-            <li class="about-item">
-              <h3 class="about-subtitle">Investmant Banking</h3>
-              <p class="about-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-
-            <li class="about-item">
-              <h3 class="about-subtitle">Portfolio Manager</h3>
-              <p class="about-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-
-            <li class="about-item">
-              <h3 class="about-subtitle">Tax & Custudio</h3>
-              <p class="about-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Solutions -->
-      <section class="solutions">
-        <div class="container">
-          <div class="solutions-img-wrapper">
-            <img class="solutions-img" src="./images/solutions/solutions.jpg" alt="Team" />
-          </div>
-
-          <div class="solutions-text-wrapper">
-            <p class="solutions-subtitle">What you are looking for</p>
-            <h2 class="solutions-title">We provide bespoke solutions</h2>
-            <p class="solutions-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
-              quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
-              itaque rerum temporibus doloribus iste maiores deleniti?
-            </p>
-            <button class="button" type="button">Read More</button>
-          </div>
-        </div>
-      </section>
-
-      <!-- Business cases -->
-      <section>
-        <p>This is what we do</p>
-        <h2>Business Cases</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-        <ul>
-          <li>
+    <!-- Business cases -->
+    <section class="cases">
+      <div class="container">
+        <p class="cases-text">This is what we do</p>
+        <h2 class="cases-title">Business Cases</h2>
+        <p class="cases-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+        <ul class="cases-list list">
+          <li class="cases-list-item">
             <img src="./images/cases/cases1.png" alt="cases1" width="320" height="214" />
           </li>
-          <li>
+          <li class="cases-list-item">
             <img src="./images/cases/cases2.png" alt="cases2" width="320" height="214" />
           </li>
-          <li>
+          <li class="cases-list-item">
             <img src="./images/cases/cases3.png" alt="cases3" width="320" height="214" />
           </li>
-          <li>
+          <li class="cases-list-item">
             <img src="./images/cases/cases4.png" alt="cases4" width="320" height="214" />
           </li>
-          <li>
+          <li class="cases-list-item">
             <img src="./images/cases/cases5.png" alt="cases5" width="320" height="214" />
           </li>
-          <li>
+          <li class="cases-list-item">
             <img src="./images/cases/cases6.png" alt="cases6" width="320" height="214" />
           </li>
-          <li>
+          <li class="cases-list-item">
             <img src="./images/cases/cases7.png" alt="cases7" width="320" height="214" />
           </li>
-          <li>
+          <li class="cases-list-item">
             <img src="./images/cases/cases8.png" alt="cases8" width="320" height="214" />
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <!-- blog -->
-      <section>
-        <p>April 16 2020</p>
-        <h2>Blog Post One</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
-          quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
-          itaque rerum temporibus doloribus iste maiores deleniti?
-        </p>
-        <button type="button">Read Our Blog</button>
-        <img src="./images/blog/blog.jpg" alt="work decktop" />
-      </section>
+    <!-- blog -->
+    <section>
+      <p>April 16 2020</p>
+      <h2>Blog Post One</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
+        quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
+        itaque rerum temporibus doloribus iste maiores deleniti?
+      </p>
+      <button type="button">Read Our Blog</button>
+      <img src="./images/blog/blog.jpg" alt="work decktop" />
+    </section>
 
-      <!--Team -->
-      <section>
-        <p>Who we are</p>
-        <h2>Our Professional Team</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-        <ul>
-          <li>
-            <img src="./images/Team/Team-1.jpg" alt="team1" width="420" height="280" />
+    <!--Team -->
+    <section>
+      <p>Who we are</p>
+      <h2>Our Professional Team</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+      <ul>
+        <li>
+          <img src="./images/Team/Team-1.jpg" alt="team1" width="420" height="280" />
 
-            <h3>John Doe</h3>
-            <p>President</p>
-          </li>
-          <li>
-            <img src="./images/Team/Team-2.jpg" alt="Team2" width="420" height="280" />
-            <h3>Jane Doe</h3>
-            <p>Vice President</p>
-          </li>
-          <li>
-            <img src="./images/Team/Team-3.jpg" alt="Team3" width="420" height="280" />
-            <h3>Steve Smith</h3>
-            <p>Marketing Head</p>
-          </li>
-        </ul>
-      </section>
-    </main>
+          <h3>John Doe</h3>
+          <p>President</p>
+        </li>
+        <li>
+          <img src="./images/Team/Team-2.jpg" alt="Team2" width="420" height="280" />
+          <h3>Jane Doe</h3>
+          <p>Vice President</p>
+        </li>
+        <li>
+          <img src="./images/Team/Team-3.jpg" alt="Team3" width="420" height="280" />
+          <h3>Steve Smith</h3>
+          <p>Marketing Head</p>
+        </li>
+      </ul>
+    </section>
+  </main>
 
-    <!-- Footer -->
-    <footer>Copyright 2022 - FinanceLedger</footer>
-  </body>
+  <!-- Footer -->
+  <footer>Copyright 2022 - FinanceLedger</footer>
+</body>
+
 </html>
