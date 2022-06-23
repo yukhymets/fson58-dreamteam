@@ -291,5 +291,46 @@ address {
 }
 
 
+/* blog */
+.blog .container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
 
+.blog-img-wrapper {
+  min-width: calc(100% / 2);
+}
 
+.blog-text-wrapper {
+  min-width: calc(100% / 2);
+  background-color: #0284D0;
+  height: 517px;
+  padding: 112px 44px 123px 30px;
+}
+
+.blog-subtitle {
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--secondary-text-color);
+  margin-bottom: 5px;
+}
+
+.blog-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--secondary-text-color);
+  margin-bottom: 26px;
+}
+
+.blog-text {
+ color: var(--secondary-text-color);
+ margin-bottom: 17px;
+}
+
+.blog .button {
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: transparent;
+}
