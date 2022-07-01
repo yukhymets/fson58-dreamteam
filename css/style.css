@@ -334,3 +334,64 @@ address {
   border-radius: 5px;
   background-color: transparent;
 }
+
+/* team */
+
+.team{
+  padding-top: 50px;
+  padding-bottom: 47px;
+
+  background-color: var(--primary-white-color);
+}
+
+.team-description{
+  margin-bottom: 16px;
+
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.section-title{
+  margin-bottom: 34px;
+  
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.team-text{
+  margin-bottom: 39px;
+  
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.team-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-item{
+  margin: calc(var(--indent) / 3)
+}
+
+.team-title{
+  margin-top: 13px;
+
+  font-size: 25px;
+  line-height: 1.28;
+  text-align: center;
+  color:var(--primary-text-color);
+}
+
+.team-position{
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  
+  color:var(--primary-text-color);
+}
