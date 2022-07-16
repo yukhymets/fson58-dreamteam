@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--primary-text-color);
+}
+
+.footer-contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-contacts-list {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-contacts-list:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer-contacts-link {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-copyryght {
+  color: #ffffff;
+  padding-bottom: 16px;
+  text-align: center;
+}

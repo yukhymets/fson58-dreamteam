@@ -1,0 +1,38 @@
+.solutions .container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.solutions-img-wrapper {
+  min-width: calc(100% / 2);
+}
+
+.solutions-text-wrapper {
+  min-width: calc(100% / 2);
+
+  height: 460px;
+  background-color: var(--accent-color);
+  padding: 84px 44px 63px 30px;
+}
+
+.solutions-subtitle {
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--secondary-text-color);
+}
+
+.solutions-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--secondary-text-color);
+}
+
+.solutions-text {
+  color: var(--secondary-text-color);
+}
+
+.solutions .button {
+  border: 1px solid #ffffff;
+}
