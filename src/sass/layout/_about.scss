@@ -20,6 +20,10 @@
 
 .about-item {
   width: 362px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-text {
@@ -27,16 +31,13 @@
   margin-bottom: 0;
 }
 
-.about-container{
+.about-container {
   background-color: var(--accent-color);
   width: 67px;
   height: 67px;
-  border-radius: 33.5px; 
-   display: flex;
+  border-radius: 33.5px;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
 }
-
-
-
