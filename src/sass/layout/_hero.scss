@@ -3,6 +3,9 @@
   padding-top: 280px;
   padding-bottom: 284px;
 
+  max-width: 1360px;
+  margin: 0 auto;
+
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.4),
@@ -31,17 +34,19 @@
     margin-bottom: 30px;
   }
 
-  & .button {
-    font-family: inherit;
-    font-size: 18px;
-    line-height: 1.56;
-    text-align: center;
-    color: var(--secondary-text-color);
+  &-button {
+    @extend .button;
 
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: var(--secondary-text-color);
     background-color: var(--accent-color);
-    border: none;
-    border-radius: 5px;
-    padding: 10px 30px;
-    cursor: pointer;
+  }
+
+  &-btn-icon {
+    margin-right: 5px;
   }
 }
