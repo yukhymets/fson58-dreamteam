@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "fson58-dreamteam",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://yukhymets.github.io/fson58-dreamteam",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /fson58-dreamteam/"
   },
   "repository": {
     "type": "git",
